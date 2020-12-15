@@ -41,13 +41,18 @@
         <input type="submit" value="Déconnexion" name="viderSession">
     </form>
 
-    <?php
-    include "fonction.php";
+
+<?php
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>
 
 </body>
 </html>

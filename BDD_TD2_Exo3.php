@@ -7,16 +7,20 @@
 </head>
 <body>
 
-        <img src="Exo3.PNG">
-        <img src="Exo3_livraison.PNG">
+        <img src="Exo3_BDD_TD2.PNG">
+        <img src="Exo3_livraison_BDD_TD2.PNG">
     
 </body>
 </html>
 
 <?php
-    include "fonction.php";
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>

@@ -1,6 +1,3 @@
-<?php
-    include 'fonction.php';
-?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -11,16 +8,21 @@
 </head>
 <body>
 <?php
+
     tableau();
 ?>
 
 <?php
-    include "fonction.php";
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>
 
 
 </body>

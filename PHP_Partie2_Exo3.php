@@ -39,7 +39,7 @@ highlight_file(__FILE__);
     ?>
 
 <?php
-    include "fonction.php";
+    include "menu.php";
 ?>
 
 <?php

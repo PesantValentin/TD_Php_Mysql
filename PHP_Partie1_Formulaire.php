@@ -26,12 +26,16 @@
 ?> 
 
 <?php
-    include "fonction.php";
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>
 
 </body>
 

@@ -7,15 +7,19 @@
 </head>
 <body>
 
-        <img src="Exo4.PNG">
+        <img src="Exo4_BDD_TD1.PNG">
     
 </body>
 </html>
 
 <?php
-    include "fonction.php";
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>

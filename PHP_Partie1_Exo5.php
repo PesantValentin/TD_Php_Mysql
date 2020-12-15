@@ -29,13 +29,18 @@
             <input type="submit" name="valider" value="OK"/>
             </form>
 
-            <?php
-    include "fonction.php";
+
+<?php
+    include "menu.php";
 ?>
 
 <?php
     menu()
 ?>
+
+<?php
+    highlight_file(__FILE__);
+    ?>
 
 </body>
 </html>
