@@ -1,3 +1,11 @@
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,15 +22,6 @@
         <input type="submit" value="Connexion" name="valider">
         
     </form>
-
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);

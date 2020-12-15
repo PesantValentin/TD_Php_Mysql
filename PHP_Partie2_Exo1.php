@@ -1,4 +1,12 @@
 
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,17 +15,10 @@
     <title>exo1</title>
 </head>
 <body>
-<?php
-
-    tableau();
-?>
 
 <?php
-    include "menu.php";
-?>
 
-<?php
-    menu()
+    echo tableau();
 ?>
 
 <?php

@@ -1,3 +1,11 @@
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -39,14 +47,6 @@
 
 
 ?>
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
-    
+  
 </body>
 </html>

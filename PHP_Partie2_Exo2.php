@@ -1,3 +1,11 @@
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +14,6 @@
     <title>Document</title>
 </head>
 <body>
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);

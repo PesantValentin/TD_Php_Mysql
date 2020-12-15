@@ -1,3 +1,11 @@
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
 <?php 
     include("fonction.php");
 
@@ -30,14 +38,6 @@
 
 
     ?>
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);

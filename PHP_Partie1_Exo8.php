@@ -1,4 +1,12 @@
 <?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
+<?php
         session_start();
 
     if(isset($_SESSION['nom'])) {
@@ -40,15 +48,6 @@
         <input type="submit" value="Connexion" name="valider">
         <input type="submit" value="Déconnexion" name="viderSession">
     </form>
-
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);

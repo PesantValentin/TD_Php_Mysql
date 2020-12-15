@@ -1,4 +1,12 @@
 <?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
+<?php
 
 try {
 
@@ -16,12 +24,4 @@ try {
 
 highlight_file(__FILE__);
 
-?>
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
 ?>

@@ -1,3 +1,11 @@
+<?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
 <?php 
 
         if(isset($_POST['valider'])) {
@@ -28,15 +36,6 @@
             Entrez votre ville : <input type="text" name="ville"/>
             <input type="submit" name="valider" value="OK"/>
             </form>
-
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);

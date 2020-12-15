@@ -1,4 +1,10 @@
 <?php
+    include "menu.php";
+?>
+
+
+
+<?php
 
 include "../../Menu.php";
 Menu();
@@ -37,14 +43,6 @@ highlight_file(__FILE__);
     Tableau($val1, $val2, $val3, $moyenne);
 
     ?>
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 </body>
 

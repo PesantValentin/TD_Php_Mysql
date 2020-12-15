@@ -1,4 +1,12 @@
 <?php
+    include "menu.php";
+?>
+
+<?php
+    menu()
+?>
+
+<?php
         session_start();
 
     if(isset($_SESSION['nom'])) {
@@ -35,15 +43,6 @@
         <p>mdp : </p><input type="password" name="mdp">
         <input type="submit" value="Connexion" name="valider">
     </form>
-
-
-<?php
-    include "menu.php";
-?>
-
-<?php
-    menu()
-?>
 
 <?php
     highlight_file(__FILE__);
