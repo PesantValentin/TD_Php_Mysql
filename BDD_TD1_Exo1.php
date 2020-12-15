@@ -6,6 +6,10 @@
     <title>BDD_TD1_Exo1.php</title>
 </head>
 <body>
+
+<?php
+    menu()
+?>
     
         <img src="Exo1_BDD_TD1.PNG">
 
@@ -14,10 +18,6 @@
 
 <?php
     include "menu.php";
-?>
-
-<?php
-    menu()
 ?>
 
 <?php

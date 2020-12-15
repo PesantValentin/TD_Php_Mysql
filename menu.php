@@ -16,44 +16,8 @@
 
 <nav>
   <ul>
-    <li class="deroulant"><a href="#">PHP PARTIE 1 &ensp;</a>
-      <ul class="sous">
-        <li><a href="PHP_Partie1_Exo1.php">Exercice 1</a></li>
-        <li><a href="PHP_Partie1_Exo2.php">Exercice 2</a></li>
-        <li><a href="PHP_Partie1_Exo3.php">Exercice 3</a></li>
-        <li><a href="PHP_Partie1_Exo4.php">Exercice 4</a></li>
-        <li><a href="PHP_Partie1_Exo5.php">Exercice 5</a></li>
-        <li><a href="PHP_Partie1_Exo6.php">Exercice 6</a></li>
-        <li><a href="PHP_Partie1_Exo7.php">Exercice 7</a></li>
-        <li><a href="PHP_Partie1_Exo8.php">Exercice 8</a></li>
-        <li><a href="PHP_Partie1_ExoFinal.php">Exercice Final</a></li>
-        <li><a href="PHP_Partie1_Formulaire.php">Formulaire</a></li>
-      </ul>
-    </li>
 
-    <li class="deroulant"><a href="#">PHP PARTIE 2 &ensp;</a>
-      <ul class="sous">
-        <li><a href="PHP_Partie2_Exo1.php">Exercice 1</a></li>
-        <li><a href="PHP_Partie2_Exo2.php">Exercice 2</a></li>
-        <li><a href="PHP_Partie2_Exo3.php">Exercice 3</a></li>
-        <li><a href="PHP_Partie2_ExoFinal.php">Exercice Final</a></li>
-      </ul>
-    </li>
-
-    <li class="deroulant"><a href="#">PARTIE SQL TD3 &ensp;</a>
-      <ul class="sous">
-        <li><a href="SQL_TD3_Exo2.php">Exercice 2</a></li>
-        </ul>
-    </li>
-
-    <li class="deroulant"><a href="#">PARTIE SQL TD4 &ensp;</a>
-      <ul class="sous">
-        <li><a href="SQL_TD4_Exo1.php">Exercice 1</a></li>
-        <li><a href="SQL_TD4_Exo2.php">Exercice 2</a></li>
-        </ul>
-    </li>
-
-    <li class="deroulant"><a href="#">HTML et CSS &ensp;</a>
+  <li class="deroulant"><a href="#">HTML et CSS &ensp;</a>
       <ul class="sous">
         <li><a href="TPWEB/HTML et CSS/exo1.html">Exercice 1</a></li>
         <li><a href="TPWEB/HTML et CSS/exo1css.html">Exercice 1 CSS</a></li>
@@ -80,12 +44,45 @@
         </ul>
     </li>
 
+    <li class="deroulant"><a href="#">PHP PARTIE 1 &ensp;</a>
+      <ul class="sous">
+        <li><a href="PHP_Partie1_Exo1.php">Exercice 1</a></li>
+        <li><a href="PHP_Partie1_Exo2.php">Exercice 2</a></li>
+        <li><a href="PHP_Partie1_Exo3.php">Exercice 3</a></li>
+        <li><a href="PHP_Partie1_Exo4.php">Exercice 4</a></li>
+        <li><a href="PHP_Partie1_Exo5.php">Exercice 5</a></li>
+        <li><a href="PHP_Partie1_Exo6.php">Exercice 6</a></li>
+        <li><a href="PHP_Partie1_Exo7.php">Exercice 7</a></li>
+        <li><a href="PHP_Partie1_Exo8.php">Exercice 8</a></li>
+        <li><a href="PHP_Partie1_ExoFinal.php">Exercice Final</a></li>
+        <li><a href="PHP_Partie1_Formulaire.php">Formulaire</a></li>
+      </ul>
+    </li>
+
+    <li class="deroulant"><a href="#">PHP PARTIE 2 (TD1-2) &ensp;</a>
+      <ul class="sous">
+        <li><a href="PHP_Partie2_Exo1.php">Exercice 1</a></li>
+        <li><a href="PHP_Partie2_Exo2.php">Exercice 2</a></li>
+        <li><a href="PHP_Partie2_Exo3.php">Exercice 3</a></li>
+        <li><a href="PHP_Partie2_ExoFinal.php">Exercice Final</a></li>
+      </ul>
+    </li>
+
+    <li class="deroulant"><a href="#">PARTIE SQL TD3 &ensp;</a>
+      <ul class="sous">
+        <li><a href="SQL_TD3_Exo2.php">Exercice 2</a></li>
+        </ul>
+    </li>
+
+    <li class="deroulant"><a href="#">PARTIE BDD TD4 &ensp;</a>
+      <ul class="sous">
+        <li><a href="SQL_TD4_Exo1.php">Exercice 1</a></li>
+        <li><a href="SQL_TD4_Exo2.php">Exercice 2</a></li>
+        </ul>
+    </li>
+
   </ul>
 </nav>
 
 </body>
 </html>
-
-<?php
-    }
-?>
