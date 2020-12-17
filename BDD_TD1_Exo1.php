@@ -17,6 +17,7 @@
 </html>
 
 <?php
+    //menu
     include "menu.php";
 ?>
 
